@@ -1,0 +1,12 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: alibaba-nacos-config-client
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.81.131:8848
+        prefix: example
+        file-extension: yaml
+        group: DEV_GROUP
